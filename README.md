@@ -4,13 +4,13 @@ Conway's Game of Life with different survival and rebirth rates.
 Each pixel is randomly selected to begin either on or off. 
 <br>
 <br> 
-Parameters are labelled (lower, upper, rebirth) where all are greater than zero and less than eight, weakly. Lower is weakly less than upper.
+Parameters are labelled $(lower, upper, rebirth)$ where all are greater than zero and less than eight, weakly. Lower is weakly less than upper.
 <br>
 <br>
-Each pixel has either neighbors. An on pixel turns off if the total number of on neighbors exceeds the upper limit or is below the lower limit. An off pixel turns on if its total number of on neighbors exactly matches the rebirth number. Otherwise, the pixel remains in its same state as the previous stage.
+Each pixel has $8$ neighbors (using the Torodial topology). An "on" pixel turns off if the total number of on neighbors exceeds the upper limit or is below the lower limit. An "off" pixel turns on if its total number of on neighbors exactly matches the rebirth number. Otherwise, the pixel remains in its same state as the previous stage.
 <br>
 <br>
-Conway's initial parameters were (lower, upper, rebirth) = (2,3,3).
+Conway's initial parameters were $(lower, upper, rebirth) = (2,3,3)$.
 <br>
 <br>
 This code was generated pretty much entirely by ChatGPT
